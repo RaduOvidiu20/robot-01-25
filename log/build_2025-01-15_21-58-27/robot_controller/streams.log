@@ -1,0 +1,23 @@
+[2.964s] Invoking command in '/home/ovidiu/robot_ws/src/robot_controller': PYTHONPATH=/home/ovidiu/robot_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/ovidiu/robot_ws/build/robot_controller/build install --record /home/ovidiu/robot_ws/build/robot_controller/install.log --single-version-externally-managed install_data
+[4.117s] running egg_info
+[4.120s] writing ../../build/robot_controller/robot_controller.egg-info/PKG-INFO
+[4.122s] writing dependency_links to ../../build/robot_controller/robot_controller.egg-info/dependency_links.txt
+[4.123s] writing entry points to ../../build/robot_controller/robot_controller.egg-info/entry_points.txt
+[4.124s] writing requirements to ../../build/robot_controller/robot_controller.egg-info/requires.txt
+[4.124s] writing top-level names to ../../build/robot_controller/robot_controller.egg-info/top_level.txt
+[4.132s] reading manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[4.139s] writing manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[4.140s] running build
+[4.140s] running build_py
+[4.149s] copying robot_controller/motor_controller.py -> /home/ovidiu/robot_ws/build/robot_controller/build/lib/robot_controller
+[4.149s] running install
+[4.150s] running install_lib
+[4.150s] copying /home/ovidiu/robot_ws/build/robot_controller/build/lib/robot_controller/motor_controller.py -> /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[4.153s] byte-compiling /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/motor_controller.py to motor_controller.cpython-310.pyc
+[4.158s] running install_data
+[4.159s] running install_egg_info
+[4.166s] removing '/home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[4.167s] Copying ../../build/robot_controller/robot_controller.egg-info to /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info
+[4.174s] running install_scripts
+[4.250s] writing list of installed files to '/home/ovidiu/robot_ws/build/robot_controller/install.log'
+[4.369s] Invoked command in '/home/ovidiu/robot_ws/src/robot_controller' returned '0': PYTHONPATH=/home/ovidiu/robot_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/ovidiu/robot_ws/build/robot_controller/build install --record /home/ovidiu/robot_ws/build/robot_controller/install.log --single-version-externally-managed install_data
