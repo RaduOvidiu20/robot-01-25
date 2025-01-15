@@ -1,7 +1,9 @@
+/home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/tf_broadcaster.py
 /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/motor_controller.py
 /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/odometry_publisher.py
 /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/arduino_interface.py
 /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/__init__.py
+/home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/__pycache__/tf_broadcaster.cpython-310.pyc
 /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/__pycache__/motor_controller.cpython-310.pyc
 /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/__pycache__/odometry_publisher.cpython-310.pyc
 /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/__pycache__/arduino_interface.cpython-310.pyc
@@ -15,3 +17,7 @@
 /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/requires.txt
 /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/entry_points.txt
 /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+/home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller/arduino_interface
+/home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller/motor_controller
+/home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller/odometry_publisher
+/home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller/tf_broadcaster

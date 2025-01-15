@@ -24,45 +24,44 @@ class OdometryPublisherNode(Node):
         self.right_ticks = msg.data
 
     def update_odometry(self):
-    current_time = self.get_clock().now()
-    dt = (current_time - self.last_time).nanoseconds / 1e9
-    self.last_time = current_time
+        current_time = self.get_clock().now()
+        dt = (current_time - self.last_time).nanoseconds / 1e9
+        self.last_time = current_time
 
     # Calculăm diferențele de tick-uri
-    delta_left_ticks = self.left_ticks
-    delta_right_ticks = self.right_ticks
+        delta_left_ticks = self.left_ticks
+        delta_right_ticks = self.right_ticks
 
     # Calculăm distanțele parcurse de fiecare roată
-    left_distance = delta_left_ticks * self.distance_per_tick
-    right_distance = delta_right_ticks * self.distance_per_tick
+        left_distance = delta_left_ticks * self.distance_per_tick
+        right_distance = delta_right_ticks * self.distance_per_tick
 
     # Calculăm delta-urile
-    delta_distance = (left_distance + right_distance) / 2
-    delta_theta = (right_distance - left_distance) / self.wheel_base
+        delta_distance = (left_distance + right_distance) / 2
+        delta_theta = (right_distance - left_distance) / self.wheel_base
 
     # Actualizăm poziția globală
-    self.x += delta_distance * cos(self.theta)
-    self.y += delta_distance * sin(self.theta)
-    self.theta += delta_theta
+        self.x += delta_distance * cos(self.theta)
+        self.y += delta_distance * sin(self.theta)
+        self.theta += delta_theta
 
     # Normalizează theta
-    self.theta = (self.theta + pi) % (2 * pi) - pi
+        self.theta = (self.theta + pi) % (2 * pi) - pi
 
     # Creăm mesajul Odometry
-    odom_msg = Odometry()
-    odom_msg.header.stamp = current_time.to_msg()
-    odom_msg.header.frame_id = "odom"
-    odom_msg.child_frame_id = "base_link"
+        odom_msg = Odometry()
+        odom_msg.header.stamp = current_time.to_msg()
+        odom_msg.header.frame_id = "odom"
+        odom_msg.child_frame_id = "base_link"
 
     # Setăm poziția
-    odom_msg.pose.pose.position.x = self.x
-    odom_msg.pose.pose.position.y = self.y
-    odom_msg.pose.pose.orientation.z = sin(self.theta / 2)
-    odom_msg.pose.pose.orientation.w = cos(self.theta / 2)
+        odom_msg.pose.pose.position.x = self.x
+        odom_msg.pose.pose.position.y = self.y
+        odom_msg.pose.pose.orientation.z = sin(self.theta / 2)
+        odom_msg.pose.pose.orientation.w = cos(self.theta / 2)
 
     # Publicăm odometria
-    self.odom_publisher.publish(odom_msg)
-
+        self.odom_publisher.publish(odom_msg)
 def main(args=None):
     rclpy.init(args=args)
     node = OdometryPublisherNode()

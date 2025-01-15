@@ -61,12 +61,19 @@ class ArduinoInterfaceNode(Node):
         scan_msg.range_max = self.range_max
         scan_msg.ranges = self.ranges
         self.lidar_publisher.publish(scan_msg)
-
+        self.ranges = [float('inf')] * 360
+        
     def publish_imu(self, qx, qy, qz, qw):
         imu_msg = Imu()
         imu_msg.header.stamp = self.get_clock().now().to_msg()
         imu_msg.header.frame_id = "imu_frame"
         imu_msg.orientation = Quaternion(x=qx, y=qy, z=qz, w=qw)
+        imu_msg.linear_acceleration.x = 0.0
+        imu_msg.linear_acceleration.y = 0.0
+        imu_msg.linear_acceleration.z = 0.0
+        imu_msg.angular_velocity.x = 0.0
+        imu_msg.angular_velocity.y = 0.0
+        imu_msg.angular_velocity.z = 0.0
         self.imu_publisher.publish(imu_msg)
 
 def main(args=None):
