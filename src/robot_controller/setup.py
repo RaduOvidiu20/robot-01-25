@@ -19,7 +19,12 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
-        ],
-    },
+    'console_scripts': [
+        'arduino_interface = robot_controller.arduino_interface:main',
+        'motor_controller = robot_controller.motor_controller:main',
+        'odometry_publisher = robot_controller.odometry_publisher:main',
+        'tf_broadcaster = robot_controller.tf_broadcaster:main',
+    ],
+},
+
 )
