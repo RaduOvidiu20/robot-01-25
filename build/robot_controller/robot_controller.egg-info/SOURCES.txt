@@ -8,6 +8,9 @@ setup.py
 ../../build/robot_controller/robot_controller.egg-info/requires.txt
 ../../build/robot_controller/robot_controller.egg-info/top_level.txt
 ../../build/robot_controller/robot_controller.egg-info/zip-safe
+config/nav2_params.yaml
+config/slam_toolbox_params.yaml
+launch/robot_bringup.launch.py
 resource/robot_controller
 robot_controller/__init__.py
 robot_controller/arduino_interface.py

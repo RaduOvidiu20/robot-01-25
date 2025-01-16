@@ -13,6 +13,7 @@ running build_py
 creating /home/ovidiu/robot_ws/build/robot_controller/build
 creating /home/ovidiu/robot_ws/build/robot_controller/build/lib
 creating /home/ovidiu/robot_ws/build/robot_controller/build/lib/robot_controller
+copying robot_controller/tf_broadcaster.py -> /home/ovidiu/robot_ws/build/robot_controller/build/lib/robot_controller
 copying robot_controller/motor_controller.py -> /home/ovidiu/robot_ws/build/robot_controller/build/lib/robot_controller
 copying robot_controller/odometry_publisher.py -> /home/ovidiu/robot_ws/build/robot_controller/build/lib/robot_controller
 copying robot_controller/arduino_interface.py -> /home/ovidiu/robot_ws/build/robot_controller/build/lib/robot_controller
@@ -20,10 +21,12 @@ copying robot_controller/__init__.py -> /home/ovidiu/robot_ws/build/robot_contro
 running install
 running install_lib
 creating /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller
+copying /home/ovidiu/robot_ws/build/robot_controller/build/lib/robot_controller/tf_broadcaster.py -> /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller
 copying /home/ovidiu/robot_ws/build/robot_controller/build/lib/robot_controller/motor_controller.py -> /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller
 copying /home/ovidiu/robot_ws/build/robot_controller/build/lib/robot_controller/odometry_publisher.py -> /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller
 copying /home/ovidiu/robot_ws/build/robot_controller/build/lib/robot_controller/arduino_interface.py -> /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller
 copying /home/ovidiu/robot_ws/build/robot_controller/build/lib/robot_controller/__init__.py -> /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller
+byte-compiling /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/tf_broadcaster.py to tf_broadcaster.cpython-310.pyc
 byte-compiling /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/motor_controller.py to motor_controller.cpython-310.pyc
 byte-compiling /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/odometry_publisher.py to odometry_publisher.cpython-310.pyc
 byte-compiling /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/arduino_interface.py to arduino_interface.cpython-310.pyc
@@ -34,7 +37,16 @@ creating /home/ovidiu/robot_ws/install/robot_controller/share/ament_index/resour
 creating /home/ovidiu/robot_ws/install/robot_controller/share/ament_index/resource_index/packages
 copying resource/robot_controller -> /home/ovidiu/robot_ws/install/robot_controller/share/ament_index/resource_index/packages
 copying package.xml -> /home/ovidiu/robot_ws/install/robot_controller/share/robot_controller
+creating /home/ovidiu/robot_ws/install/robot_controller/share/robot_controller/launch
+copying launch/robot_bringup.launch.py -> /home/ovidiu/robot_ws/install/robot_controller/share/robot_controller/launch
+creating /home/ovidiu/robot_ws/install/robot_controller/share/robot_controller/config
+copying config/slam_toolbox_params.yaml -> /home/ovidiu/robot_ws/install/robot_controller/share/robot_controller/config
+copying config/nav2_params.yaml -> /home/ovidiu/robot_ws/install/robot_controller/share/robot_controller/config
 running install_egg_info
 Copying ../../build/robot_controller/robot_controller.egg-info to /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info
 running install_scripts
+Installing arduino_interface script to /home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller
+Installing motor_controller script to /home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller
+Installing odometry_publisher script to /home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller
+Installing tf_broadcaster script to /home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller
 writing list of installed files to '/home/ovidiu/robot_ws/build/robot_controller/install.log'

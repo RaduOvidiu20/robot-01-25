@@ -10,6 +10,9 @@
 /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/__pycache__/__init__.cpython-310.pyc
 /home/ovidiu/robot_ws/install/robot_controller/share/ament_index/resource_index/packages/robot_controller
 /home/ovidiu/robot_ws/install/robot_controller/share/robot_controller/package.xml
+/home/ovidiu/robot_ws/install/robot_controller/share/robot_controller/launch/robot_bringup.launch.py
+/home/ovidiu/robot_ws/install/robot_controller/share/robot_controller/config/slam_toolbox_params.yaml
+/home/ovidiu/robot_ws/install/robot_controller/share/robot_controller/config/nav2_params.yaml
 /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/top_level.txt
 /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info/PKG-INFO
