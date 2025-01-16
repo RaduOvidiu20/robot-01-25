@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.002079] (robot_controller) JobQueued: {'identifier': 'robot_controller', 'dependencies': OrderedDict()}
+[0.003446] (robot_controller) JobStarted: {'identifier': 'robot_controller'}
+[0.099036] (-) TimerEvent: {}
+[0.200026] (-) TimerEvent: {}
+[0.301242] (-) TimerEvent: {}
+[0.402184] (-) TimerEvent: {}
+[0.503329] (-) TimerEvent: {}
+[0.604192] (-) TimerEvent: {}
+[0.705097] (-) TimerEvent: {}
+[0.806131] (-) TimerEvent: {}
+[0.908378] (-) TimerEvent: {}
+[1.010486] (-) TimerEvent: {}
+[1.114967] (-) TimerEvent: {}
+[1.215784] (-) TimerEvent: {}
+[1.316982] (-) TimerEvent: {}
+[1.420303] (-) TimerEvent: {}
+[1.522238] (-) TimerEvent: {}
+[1.623015] (-) TimerEvent: {}
+[1.724426] (-) TimerEvent: {}
+[1.827307] (-) TimerEvent: {}
+[1.929409] (-) TimerEvent: {}
+[2.035925] (-) TimerEvent: {}
+[2.137709] (-) TimerEvent: {}
+[2.239465] (-) TimerEvent: {}
+[2.340818] (-) TimerEvent: {}
+[2.442393] (-) TimerEvent: {}
+[2.546633] (-) TimerEvent: {}
+[2.648223] (-) TimerEvent: {}
+[2.749951] (-) TimerEvent: {}
+[2.851291] (-) TimerEvent: {}
+[2.953422] (-) TimerEvent: {}
+[3.054593] (-) TimerEvent: {}
+[3.155695] (-) TimerEvent: {}
+[3.257300] (-) TimerEvent: {}
+[3.358441] (-) TimerEvent: {}
+[3.459327] (-) TimerEvent: {}
+[3.560182] (-) TimerEvent: {}
+[3.662660] (-) TimerEvent: {}
+[3.764052] (-) TimerEvent: {}
+[3.867614] (-) TimerEvent: {}
+[3.969540] (-) TimerEvent: {}
+[4.072282] (-) TimerEvent: {}
+[4.175592] (-) TimerEvent: {}
+[4.276838] (-) TimerEvent: {}
+[4.378393] (-) TimerEvent: {}
+[4.480537] (-) TimerEvent: {}
+[4.581552] (-) TimerEvent: {}
+[4.683057] (-) TimerEvent: {}
+[4.784192] (-) TimerEvent: {}
+[4.886606] (-) TimerEvent: {}
+[4.990492] (-) TimerEvent: {}
+[5.091703] (-) TimerEvent: {}
+[5.194488] (-) TimerEvent: {}
+[5.296621] (-) TimerEvent: {}
+[5.397889] (-) TimerEvent: {}
+[5.500560] (-) TimerEvent: {}
+[5.603555] (-) TimerEvent: {}
+[5.705215] (-) TimerEvent: {}
+[5.806448] (-) TimerEvent: {}
+[5.910554] (-) TimerEvent: {}
+[6.013308] (-) TimerEvent: {}
+[6.118090] (-) TimerEvent: {}
+[6.134850] (robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ovidiu/robot_ws/build/robot_controller/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/ovidiu/robot_ws/build/robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'LANGUAGE': 'en_US', 'USER': 'ovidiu', 'LC_TIME': 'ro_RO.UTF-8', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mate', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ovidiu', 'DESKTOP_SESSION': 'mate', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'ro_RO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4386', 'UBUNTU_MENUPROXY': '1', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ovidiu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ovidiu-desktop:@/tmp/.ICE-unix/1079,unix/ovidiu-desktop:/tmp/.ICE-unix/1079', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'LC_ADDRESS': 'ro_RO.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'LC_TELEPHONE': 'ro_RO.UTF-8', 'XDG_SESSION_DESKTOP': 'mate', 'XAUTHORITY': '/home/ovidiu/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/ovidiu', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ro_RO.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:be7d4527-dfc0-49ee-a3b8-40cd4de620a7', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'mate', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ro_RO.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ro_RO.UTF-8', 'XDG_VTNR': '7', 'PWD': '/home/ovidiu/robot_ws/build/robot_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-mate:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/mate:/home/ovidiu/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ovidiu/robot_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ro_RO.UTF-8', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_PAPER': 'ro_RO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96'}, 'shell': False}
+[6.218270] (-) TimerEvent: {}
+[6.326679] (-) TimerEvent: {}
+[6.427472] (-) TimerEvent: {}
+[6.528482] (-) TimerEvent: {}
+[6.629883] (-) TimerEvent: {}
+[6.731922] (-) TimerEvent: {}
+[6.833058] (-) TimerEvent: {}
+[6.934297] (-) TimerEvent: {}
+[7.035295] (-) TimerEvent: {}
+[7.136390] (-) TimerEvent: {}
+[7.238301] (-) TimerEvent: {}
+[7.341736] (-) TimerEvent: {}
+[7.442919] (-) TimerEvent: {}
+[7.543712] (-) TimerEvent: {}
+[7.644458] (-) TimerEvent: {}
+[7.745397] (-) TimerEvent: {}
+[7.846404] (-) TimerEvent: {}
+[7.947295] (-) TimerEvent: {}
+[8.048098] (-) TimerEvent: {}
+[8.149081] (-) TimerEvent: {}
+[8.253329] (-) TimerEvent: {}
+[8.334256] (robot_controller) StdoutLine: {'line': b'running develop\n'}
+[8.354483] (-) TimerEvent: {}
+[8.457381] (-) TimerEvent: {}
+[8.559508] (-) TimerEvent: {}
+[8.663533] (-) TimerEvent: {}
+[8.766511] (-) TimerEvent: {}
+[8.867552] (-) TimerEvent: {}
+[8.968871] (-) TimerEvent: {}
+[9.070445] (-) TimerEvent: {}
+[9.172456] (-) TimerEvent: {}
+[9.273480] (-) TimerEvent: {}
+[9.374314] (-) TimerEvent: {}
+[9.475371] (-) TimerEvent: {}
+[9.576377] (-) TimerEvent: {}
+[9.677657] (-) TimerEvent: {}
+[9.781242] (-) TimerEvent: {}
+[9.882159] (-) TimerEvent: {}
+[9.982871] (-) TimerEvent: {}
+[10.084026] (-) TimerEvent: {}
+[10.187542] (-) TimerEvent: {}
+[10.289090] (-) TimerEvent: {}
+[10.390267] (-) TimerEvent: {}
+[10.491076] (-) TimerEvent: {}
+[10.591974] (-) TimerEvent: {}
+[10.687543] (robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[10.688779] (robot_controller) StdoutLine: {'line': b'writing robot_controller.egg-info/PKG-INFO\n'}
+[10.690368] (robot_controller) StdoutLine: {'line': b'writing dependency_links to robot_controller.egg-info/dependency_links.txt\n'}
+[10.693023] (robot_controller) StdoutLine: {'line': b'writing entry points to robot_controller.egg-info/entry_points.txt\n'}
+[10.694481] (-) TimerEvent: {}
+[10.699812] (robot_controller) StdoutLine: {'line': b'writing requirements to robot_controller.egg-info/requires.txt\n'}
+[10.706301] (robot_controller) StdoutLine: {'line': b'writing top-level names to robot_controller.egg-info/top_level.txt\n'}
+[10.713197] (robot_controller) StdoutLine: {'line': b"reading manifest file 'robot_controller.egg-info/SOURCES.txt'\n"}
+[10.718821] (robot_controller) StdoutLine: {'line': b"writing manifest file 'robot_controller.egg-info/SOURCES.txt'\n"}
+[10.729038] (robot_controller) StdoutLine: {'line': b'running build_ext\n'}
+[10.730753] (robot_controller) StdoutLine: {'line': b'Creating /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot-controller.egg-link (link to .)\n'}
+[10.739308] (robot_controller) StdoutLine: {'line': b'Installing arduino_interface script to /home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller\n'}
+[10.740605] (robot_controller) StdoutLine: {'line': b'Installing fake_lidar_node script to /home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller\n'}
+[10.742375] (robot_controller) StdoutLine: {'line': b'Installing fake_odometry_node script to /home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller\n'}
+[10.744385] (robot_controller) StdoutLine: {'line': b'Installing motor_controller script to /home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller\n'}
+[10.754439] (robot_controller) StdoutLine: {'line': b'Installing odometry_publisher script to /home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller\n'}
+[10.755381] (robot_controller) StdoutLine: {'line': b'Installing tf_broadcaster script to /home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller\n'}
+[10.764050] (robot_controller) StdoutLine: {'line': b'\n'}
+[10.765475] (robot_controller) StdoutLine: {'line': b'Installed /home/ovidiu/robot_ws/build/robot_controller\n'}
+[10.771692] (robot_controller) StdoutLine: {'line': b'running symlink_data\n'}
+[10.778604] (robot_controller) StdoutLine: {'line': b'symbolically linking /home/ovidiu/robot_ws/build/robot_controller/resource/robot_controller -> /home/ovidiu/robot_ws/install/robot_controller/share/ament_index/resource_index/packages\n'}
+[10.780851] (robot_controller) StdoutLine: {'line': b'symbolically linking /home/ovidiu/robot_ws/build/robot_controller/package.xml -> /home/ovidiu/robot_ws/install/robot_controller/share/robot_controller\n'}
+[10.782435] (robot_controller) StdoutLine: {'line': b'symbolically linking /home/ovidiu/robot_ws/build/robot_controller/launch/robot_bringup.launch.py -> /home/ovidiu/robot_ws/install/robot_controller/share/robot_controller/launch\n'}
+[10.784029] (robot_controller) StdoutLine: {'line': b'symbolically linking /home/ovidiu/robot_ws/build/robot_controller/config/slam_toolbox_params.yaml -> /home/ovidiu/robot_ws/install/robot_controller/share/robot_controller/config\n'}
+[10.785462] (robot_controller) StdoutLine: {'line': b'symbolically linking /home/ovidiu/robot_ws/build/robot_controller/config/nav2_params.yaml -> /home/ovidiu/robot_ws/install/robot_controller/share/robot_controller/config\n'}
+[10.796946] (-) TimerEvent: {}
+[10.900237] (-) TimerEvent: {}
+[11.002208] (-) TimerEvent: {}
+[11.055914] (robot_controller) CommandEnded: {'returncode': 0}
+[11.102409] (-) TimerEvent: {}
+[11.205468] (-) TimerEvent: {}
+[11.232598] (robot_controller) JobEnded: {'identifier': 'robot_controller', 'rc': 0}
+[11.248653] (-) EventReactorShutdown: {}

@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.001331] (robot_controller) JobQueued: {'identifier': 'robot_controller', 'dependencies': OrderedDict()}
+[0.002609] (robot_controller) JobStarted: {'identifier': 'robot_controller'}
+[0.106603] (-) TimerEvent: {}
+[0.208599] (-) TimerEvent: {}
+[0.310818] (-) TimerEvent: {}
+[0.412461] (-) TimerEvent: {}
+[0.513816] (-) TimerEvent: {}
+[0.615521] (-) TimerEvent: {}
+[0.719069] (-) TimerEvent: {}
+[0.820062] (-) TimerEvent: {}
+[0.921218] (-) TimerEvent: {}
+[1.022526] (-) TimerEvent: {}
+[1.126561] (-) TimerEvent: {}
+[1.227528] (-) TimerEvent: {}
+[1.330557] (-) TimerEvent: {}
+[1.431499] (-) TimerEvent: {}
+[1.532202] (-) TimerEvent: {}
+[1.633542] (-) TimerEvent: {}
+[1.734574] (-) TimerEvent: {}
+[1.835411] (-) TimerEvent: {}
+[1.936675] (-) TimerEvent: {}
+[2.037826] (-) TimerEvent: {}
+[2.141312] (-) TimerEvent: {}
+[2.242888] (-) TimerEvent: {}
+[2.344052] (-) TimerEvent: {}
+[2.444987] (-) TimerEvent: {}
+[2.550607] (-) TimerEvent: {}
+[2.653746] (-) TimerEvent: {}
+[2.754591] (-) TimerEvent: {}
+[2.855352] (-) TimerEvent: {}
+[2.956276] (-) TimerEvent: {}
+[3.057241] (-) TimerEvent: {}
+[3.158436] (-) TimerEvent: {}
+[3.261278] (-) TimerEvent: {}
+[3.362672] (-) TimerEvent: {}
+[3.464064] (-) TimerEvent: {}
+[3.564896] (-) TimerEvent: {}
+[3.665714] (-) TimerEvent: {}
+[3.766750] (-) TimerEvent: {}
+[3.867584] (-) TimerEvent: {}
+[3.968570] (-) TimerEvent: {}
+[4.070266] (-) TimerEvent: {}
+[4.172822] (-) TimerEvent: {}
+[4.276025] (-) TimerEvent: {}
+[4.379177] (-) TimerEvent: {}
+[4.480596] (-) TimerEvent: {}
+[4.581616] (-) TimerEvent: {}
+[4.682547] (-) TimerEvent: {}
+[4.783635] (-) TimerEvent: {}
+[4.885444] (-) TimerEvent: {}
+[4.986557] (-) TimerEvent: {}
+[5.087528] (-) TimerEvent: {}
+[5.188836] (-) TimerEvent: {}
+[5.292137] (-) TimerEvent: {}
+[5.393135] (-) TimerEvent: {}
+[5.494543] (-) TimerEvent: {}
+[5.596196] (-) TimerEvent: {}
+[5.614931] (robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_controller', 'build', '--build-base', '/home/ovidiu/robot_ws/build/robot_controller/build', 'install', '--record', '/home/ovidiu/robot_ws/build/robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ovidiu/robot_ws/src/robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'LANGUAGE': 'en_US', 'USER': 'ovidiu', 'LC_TIME': 'ro_RO.UTF-8', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mate', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ovidiu', 'DESKTOP_SESSION': 'mate', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge:canberra-gtk-module', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'ro_RO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4386', 'UBUNTU_MENUPROXY': '1', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ovidiu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ovidiu-desktop:@/tmp/.ICE-unix/1079,unix/ovidiu-desktop:/tmp/.ICE-unix/1079', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'LC_ADDRESS': 'ro_RO.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'LC_TELEPHONE': 'ro_RO.UTF-8', 'XDG_SESSION_DESKTOP': 'mate', 'XAUTHORITY': '/home/ovidiu/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/ovidiu', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ro_RO.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:be7d4527-dfc0-49ee-a3b8-40cd4de620a7', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'mate', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ro_RO.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ro_RO.UTF-8', 'XDG_VTNR': '7', 'PWD': '/home/ovidiu/robot_ws/build/robot_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-mate:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/mate:/home/ovidiu/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ovidiu/robot_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ro_RO.UTF-8', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LC_PAPER': 'ro_RO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'QT_FONT_DPI': '96'}, 'shell': False}
+[5.696465] (-) TimerEvent: {}
+[5.797721] (-) TimerEvent: {}
+[5.898900] (-) TimerEvent: {}
+[6.001133] (-) TimerEvent: {}
+[6.105708] (-) TimerEvent: {}
+[6.206511] (-) TimerEvent: {}
+[6.307287] (-) TimerEvent: {}
+[6.408057] (-) TimerEvent: {}
+[6.509087] (-) TimerEvent: {}
+[6.611397] (-) TimerEvent: {}
+[6.712714] (-) TimerEvent: {}
+[6.813512] (-) TimerEvent: {}
+[6.914578] (-) TimerEvent: {}
+[7.016200] (-) TimerEvent: {}
+[7.117189] (-) TimerEvent: {}
+[7.218200] (-) TimerEvent: {}
+[7.319306] (-) TimerEvent: {}
+[7.420533] (-) TimerEvent: {}
+[7.524857] (-) TimerEvent: {}
+[7.625860] (-) TimerEvent: {}
+[7.643261] (robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[7.646656] (robot_controller) StdoutLine: {'line': b'writing ../../build/robot_controller/robot_controller.egg-info/PKG-INFO\n'}
+[7.648815] (robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_controller/robot_controller.egg-info/dependency_links.txt\n'}
+[7.650366] (robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/robot_controller/robot_controller.egg-info/entry_points.txt\n'}
+[7.656036] (robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/robot_controller/robot_controller.egg-info/requires.txt\n'}
+[7.658928] (robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/robot_controller/robot_controller.egg-info/top_level.txt\n'}
+[7.673328] (robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'\n"}
+[7.680359] (robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'\n"}
+[7.681611] (robot_controller) StdoutLine: {'line': b'running build\n'}
+[7.682289] (robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[7.684556] (robot_controller) StdoutLine: {'line': b'copying robot_controller/fake_lidar_node.py -> /home/ovidiu/robot_ws/build/robot_controller/build/lib/robot_controller\n'}
+[7.689087] (robot_controller) StdoutLine: {'line': b'running install\n'}
+[7.690793] (robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[7.698205] (robot_controller) StdoutLine: {'line': b'copying /home/ovidiu/robot_ws/build/robot_controller/build/lib/robot_controller/fake_lidar_node.py -> /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller\n'}
+[7.714832] (robot_controller) StdoutLine: {'line': b'byte-compiling /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/fake_lidar_node.py to fake_lidar_node.cpython-310.pyc\n'}
+[7.719938] (robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[7.724336] (robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.726001] (-) TimerEvent: {}
+[7.741311] (robot_controller) StdoutLine: {'line': b"removing '/home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.743945] (robot_controller) StdoutLine: {'line': b'Copying ../../build/robot_controller/robot_controller.egg-info to /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info\n'}
+[7.760635] (robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[7.826214] (-) TimerEvent: {}
+[7.909049] (robot_controller) StdoutLine: {'line': b'Installing arduino_interface script to /home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller\n'}
+[7.913961] (robot_controller) StdoutLine: {'line': b'Installing fake_lidar_node script to /home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller\n'}
+[7.916647] (robot_controller) StdoutLine: {'line': b'Installing fake_odometry_node script to /home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller\n'}
+[7.917530] (robot_controller) StdoutLine: {'line': b'Installing motor_controller script to /home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller\n'}
+[7.921884] (robot_controller) StdoutLine: {'line': b'Installing odometry_publisher script to /home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller\n'}
+[7.922855] (robot_controller) StdoutLine: {'line': b'Installing tf_broadcaster script to /home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller\n'}
+[7.938637] (-) TimerEvent: {}
+[7.945186] (robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/ovidiu/robot_ws/build/robot_controller/install.log'\n"}
+[8.040819] (-) TimerEvent: {}
+[8.142526] (-) TimerEvent: {}
+[8.159459] (robot_controller) CommandEnded: {'returncode': 0}
+[8.243113] (-) TimerEvent: {}
+[8.270234] (robot_controller) JobEnded: {'identifier': 'robot_controller', 'rc': 0}
+[8.275958] (-) EventReactorShutdown: {}

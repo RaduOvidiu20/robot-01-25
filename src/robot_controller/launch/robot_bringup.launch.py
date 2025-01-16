@@ -1,56 +1,47 @@
 from launch import LaunchDescription
 from launch_ros.actions import Node
-from launch.actions import IncludeLaunchDescription
-from launch.launch_description_sources import PythonLaunchDescriptionSource
-from ament_index_python.packages import get_package_share_directory
 import os
+from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
-    # Obține directoarele necesare
     robot_controller_dir = get_package_share_directory('robot_controller')
-    nav2_bringup_dir = get_package_share_directory('nav2_bringup')
 
     return LaunchDescription([
-        # Interfața cu Arduino
+        # Fake Lidar node
         Node(
             package='robot_controller',
-            executable='arduino_interface',
-            name='arduino_interface'
+            executable='fake_lidar_node',
+            name='fake_lidar_node',
+            output='screen'
         ),
-        # Controlul motoarelor
+        # Fake Odometry node
         Node(
             package='robot_controller',
-            executable='motor_controller',
-            name='motor_controller'
+            executable='fake_odometry_node',
+            name='fake_odometry_node',
+            output='screen'
         ),
-        # Publicare odometrie
-        Node(
-            package='robot_controller',
-            executable='odometry_publisher',
-            name='odometry_publisher'
-        ),
-        # SLAM Toolbox
+        # SLAM Toolbox for live mapping
         Node(
             package='slam_toolbox',
             executable='sync_slam_toolbox_node',
             name='slam_toolbox',
-            parameters=[os.path.join(robot_controller_dir, 'config', 'slam_toolbox_params.yaml')]
+            parameters=[os.path.join(robot_controller_dir, 'config', 'slam_toolbox_params.yaml')],
+            output='screen'
         ),
-        # Include Nav2 Bringup
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(
-                os.path.join(nav2_bringup_dir, 'launch', 'bringup_launch.py')
-            ),
-            launch_arguments={
-                'map': os.path.join(robot_controller_dir, 'config', 'map.yaml'),
-                'params_file': os.path.join(robot_controller_dir, 'config', 'nav2_params.yaml'),
-                'use_sim_time': 'false'
-            }.items()
-        ),
-        # Transformări TF
+        # TF Broadcaster
         Node(
             package='robot_controller',
             executable='tf_broadcaster',
-            name='tf_broadcaster'
+            name='tf_broadcaster',
+            output='screen'
+        ),
+        # Nav2 Controller Server
+        Node(
+            package='nav2_controller',
+            executable='controller_server',
+            name='controller_server',
+            parameters=[os.path.join(robot_controller_dir, 'config', 'nav2_params.yaml')],
+            output='screen'
         ),
     ])

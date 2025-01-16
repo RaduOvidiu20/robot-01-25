@@ -1,12 +1,12 @@
 slam_toolbox:
   ros__parameters:
-    slam_mode: "mapping"  # Mod de generare a hărții
-    map_file_name: "my_map"  # Numele fișierului în care se va salva harta
-    resolution: 0.1  # Rezoluția hărții (5 cm)
-    max_laser_range: 12.0  # Distanța maximă a lidarului
-    minimum_time_interval: 0.3  # Interval minim pentru actualizare
-    transform_publish_period: 0.05  # Publicare TF la fiecare 50 ms
-    map_update_interval: 3.0  # Interval de actualizare a hărții în secunde
-    laser_frame: "laser_frame"  # Numele frame-ului lidarului
-    odom_frame: "odom"  # Numele frame-ului odometriei
-    base_frame: "base_link"  # Numele frame-ului robotului
+    slam_mode: "mapping"  # Use live mapping mode
+    resolution: 0.05      # Map resolution in meters per cell
+    map_update_interval: 2.0  # Interval for updating the map (in seconds)
+    max_laser_range: 12.0  # Maximum range of your Lidar
+    transform_publish_period: 0.05  # Frequency of TF updates
+    scan_topic: "/scan"  # Lidar topic
+    map_frame: "map"
+    base_frame: "base_link"
+    odom_frame: "odom"
+    use_sim_time: false  # Adjust if simulating

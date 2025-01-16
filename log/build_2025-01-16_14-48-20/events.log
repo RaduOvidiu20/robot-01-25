@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.009572] (robot_controller) JobQueued: {'identifier': 'robot_controller', 'dependencies': OrderedDict()}
+[0.013881] (robot_controller) JobStarted: {'identifier': 'robot_controller'}
+[0.099141] (-) TimerEvent: {}
+[0.203930] (-) TimerEvent: {}
+[0.308515] (-) TimerEvent: {}
+[0.414728] (-) TimerEvent: {}
+[0.515969] (-) TimerEvent: {}
+[0.632105] (-) TimerEvent: {}
+[0.732980] (-) TimerEvent: {}
+[0.834715] (-) TimerEvent: {}
+[0.935785] (-) TimerEvent: {}
+[1.039006] (-) TimerEvent: {}
+[1.139936] (-) TimerEvent: {}
+[1.249081] (-) TimerEvent: {}
+[1.349990] (-) TimerEvent: {}
+[1.450958] (-) TimerEvent: {}
+[1.552002] (-) TimerEvent: {}
+[1.652869] (-) TimerEvent: {}
+[1.753869] (-) TimerEvent: {}
+[1.856071] (-) TimerEvent: {}
+[1.957012] (-) TimerEvent: {}
+[2.057855] (-) TimerEvent: {}
+[2.158783] (-) TimerEvent: {}
+[2.259680] (-) TimerEvent: {}
+[2.361973] (-) TimerEvent: {}
+[2.464109] (-) TimerEvent: {}
+[2.569304] (-) TimerEvent: {}
+[2.675010] (-) TimerEvent: {}
+[2.780766] (-) TimerEvent: {}
+[2.883274] (-) TimerEvent: {}
+[2.987159] (-) TimerEvent: {}
+[3.091416] (-) TimerEvent: {}
+[3.192198] (-) TimerEvent: {}
+[3.293074] (-) TimerEvent: {}
+[3.400075] (-) TimerEvent: {}
+[3.501186] (-) TimerEvent: {}
+[3.602241] (-) TimerEvent: {}
+[3.703275] (-) TimerEvent: {}
+[3.805313] (-) TimerEvent: {}
+[3.906793] (-) TimerEvent: {}
+[4.007698] (-) TimerEvent: {}
+[4.109002] (-) TimerEvent: {}
+[4.209954] (-) TimerEvent: {}
+[4.311374] (-) TimerEvent: {}
+[4.414007] (-) TimerEvent: {}
+[4.515455] (-) TimerEvent: {}
+[4.616842] (-) TimerEvent: {}
+[4.718442] (-) TimerEvent: {}
+[4.820114] (-) TimerEvent: {}
+[4.921305] (-) TimerEvent: {}
+[5.022109] (-) TimerEvent: {}
+[5.123176] (-) TimerEvent: {}
+[5.224973] (-) TimerEvent: {}
+[5.327193] (-) TimerEvent: {}
+[5.432565] (-) TimerEvent: {}
+[5.544097] (-) TimerEvent: {}
+[5.646227] (-) TimerEvent: {}
+[5.748333] (-) TimerEvent: {}
+[5.850447] (-) TimerEvent: {}
+[5.952126] (-) TimerEvent: {}
+[6.052900] (-) TimerEvent: {}
+[6.154219] (-) TimerEvent: {}
+[6.255780] (-) TimerEvent: {}
+[6.336882] (robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_controller', 'build', '--build-base', '/home/ovidiu/robot_ws/build/robot_controller/build', 'install', '--record', '/home/ovidiu/robot_ws/build/robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ovidiu/robot_ws/src/robot_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ovidiu', 'LC_TIME': 'ro_RO.UTF-8', 'GIT_ASKPASS': '/home/ovidiu/.vscode/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/ovidiu/.vscode/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/bin/helpers/browser.sh', 'HOME': '/home/ovidiu', 'TERM_PROGRAM_VERSION': '1.96.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-1d143948-05fe-42ba-99fb-7c5869696e55.sock', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge:appmenu-gtk-module', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ovidiu/.vscode/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ro_RO.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/ovidiu/.vscode/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/node', 'MANAGERPID': '1052', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'SYSTEMD_EXEC_PID': '1083', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'UBUNTU_MENUPROXY': '1', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ovidiu', 'JOURNAL_STREAM': '8:25331', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ovidiu/.vscode/cli/servers/Stable-91fbdddc47bc9c09064bf7acf133d22631cbf083/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ovidiu/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'INVOCATION_ID': 'b499c03d62ea49f699303d1b813ba35e', 'LC_ADDRESS': 'ro_RO.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ro_RO.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2a8c520579.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ro_RO.UTF-8', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ro_RO.UTF-8', 'LC_IDENTIFICATION': 'ro_RO.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ovidiu/robot_ws/build/robot_controller', 'XDG_DATA_DIRS': '/home/ovidiu/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ovidiu/robot_ws/build/robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ro_RO.UTF-8', 'LC_PAPER': 'ro_RO.UTF-8', 'COLCON': '1'}, 'shell': False}
+[6.356049] (-) TimerEvent: {}
+[6.457223] (-) TimerEvent: {}
+[6.558536] (-) TimerEvent: {}
+[6.666506] (-) TimerEvent: {}
+[6.768393] (-) TimerEvent: {}
+[6.869462] (-) TimerEvent: {}
+[6.970897] (-) TimerEvent: {}
+[7.078114] (-) TimerEvent: {}
+[7.179435] (-) TimerEvent: {}
+[7.280964] (-) TimerEvent: {}
+[7.382805] (-) TimerEvent: {}
+[7.483824] (-) TimerEvent: {}
+[7.585287] (-) TimerEvent: {}
+[7.686829] (-) TimerEvent: {}
+[7.787534] (-) TimerEvent: {}
+[7.892074] (-) TimerEvent: {}
+[7.993020] (-) TimerEvent: {}
+[8.093861] (-) TimerEvent: {}
+[8.194927] (-) TimerEvent: {}
+[8.295780] (-) TimerEvent: {}
+[8.398612] (-) TimerEvent: {}
+[8.492036] (robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[8.495433] (robot_controller) StdoutLine: {'line': b'writing ../../build/robot_controller/robot_controller.egg-info/PKG-INFO\n'}
+[8.497621] (robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_controller/robot_controller.egg-info/dependency_links.txt\n'}
+[8.499151] (-) TimerEvent: {}
+[8.501453] (robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/robot_controller/robot_controller.egg-info/entry_points.txt\n'}
+[8.504154] (robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/robot_controller/robot_controller.egg-info/requires.txt\n'}
+[8.516376] (robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/robot_controller/robot_controller.egg-info/top_level.txt\n'}
+[8.524332] (robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'\n"}
+[8.527045] (robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'\n"}
+[8.528392] (robot_controller) StdoutLine: {'line': b'running build\n'}
+[8.530186] (robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[8.532497] (robot_controller) StdoutLine: {'line': b'copying robot_controller/tf_broadcaster.py -> /home/ovidiu/robot_ws/build/robot_controller/build/lib/robot_controller\n'}
+[8.537120] (robot_controller) StdoutLine: {'line': b'running install\n'}
+[8.541253] (robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[8.550209] (robot_controller) StdoutLine: {'line': b'copying /home/ovidiu/robot_ws/build/robot_controller/build/lib/robot_controller/tf_broadcaster.py -> /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller\n'}
+[8.555761] (robot_controller) StdoutLine: {'line': b'byte-compiling /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/tf_broadcaster.py to tf_broadcaster.cpython-310.pyc\n'}
+[8.559510] (robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[8.562638] (robot_controller) StdoutLine: {'line': b'copying launch/robot_bringup.launch.py -> /home/ovidiu/robot_ws/install/robot_controller/share/robot_controller/launch\n'}
+[8.569804] (robot_controller) StdoutLine: {'line': b'copying config/slam_toolbox_params.yaml -> /home/ovidiu/robot_ws/install/robot_controller/share/robot_controller/config\n'}
+[8.571525] (robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.593710] (robot_controller) StdoutLine: {'line': b"removing '/home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.596267] (robot_controller) StdoutLine: {'line': b'Copying ../../build/robot_controller/robot_controller.egg-info to /home/ovidiu/robot_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info\n'}
+[8.600482] (-) TimerEvent: {}
+[8.604948] (robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[8.701467] (-) TimerEvent: {}
+[8.759258] (robot_controller) StdoutLine: {'line': b'Installing arduino_interface script to /home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller\n'}
+[8.762796] (robot_controller) StdoutLine: {'line': b'Installing motor_controller script to /home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller\n'}
+[8.776620] (robot_controller) StdoutLine: {'line': b'Installing odometry_publisher script to /home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller\n'}
+[8.778304] (robot_controller) StdoutLine: {'line': b'Installing tf_broadcaster script to /home/ovidiu/robot_ws/install/robot_controller/lib/robot_controller\n'}
+[8.788129] (robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/ovidiu/robot_ws/build/robot_controller/install.log'\n"}
+[8.802997] (-) TimerEvent: {}
+[8.913563] (-) TimerEvent: {}
+[8.965507] (robot_controller) CommandEnded: {'returncode': 0}
+[9.019663] (-) TimerEvent: {}
+[9.096525] (robot_controller) JobEnded: {'identifier': 'robot_controller', 'rc': 0}
+[9.110537] (-) EventReactorShutdown: {}

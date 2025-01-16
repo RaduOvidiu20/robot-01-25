@@ -29,6 +29,8 @@ setup(
             'motor_controller = robot_controller.motor_controller:main',
             'odometry_publisher = robot_controller.odometry_publisher:main',
             'tf_broadcaster = robot_controller.tf_broadcaster:main',
+            'fake_lidar_node = robot_controller.fake_lidar_node:main',
+            'fake_odometry_node = robot_controller.fake_odometry_node:main',
         ],
     },
 )
